@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Texturina:wght@100&display=swap");
+* {
+  background-color: #e8d6cb;
+}
+h1 {
+  font-family: "Hachi Maru Pop", cursive;
+  text-align: center;
+  color: #5d2e46;
+  font-weight: bold;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 482px !important;
+  width: 482px !important;
+  background-color: #e8d6cb;
+}
+#game {
+  text-align: center;
+}
+#game > p {
+  font-size: 20px;
+  margin-bottom: 5px !important;
+  font-family: "Texturina", serif;
+  color: #cd97ce;
+  font-weight: 600;
+}
+#guess-input {
+  border: 3px #936494 double !important;
+  border-radius: 15px;
+  color: #936494 !important;
+  line-height: 38px !important;
+}
+#guess-btn {
+  border: #936494 solid !important;
+  border-radius: 15px;
+  color: #5d2e46 !important;
+  margin: 0 !important;
+  line-height: 32px !important;
+}
+
+input[type="submit"]:hover {
+  color: #1b1a1b !important;
+}
